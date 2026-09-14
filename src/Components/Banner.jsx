@@ -26,7 +26,7 @@ const Banner = () => {
                     <div className='w-70 h-70 relative'>
 
                         <CircularText
-                            text="EXPERT VIDEO EDITOR *"
+                            text='EXPEART / VIDEO EDITOR /'
                             onHover="speedUp"
                             spinDuration={20}
                             className="custom-class"
@@ -115,7 +115,7 @@ const Banner = () => {
                 ]}
                 velocity={200}
                 className="custom-scroll-text"
-                numCopies={12}
+                numCopies={2}
                 damping={75}
                 stiffness={650}
             />
