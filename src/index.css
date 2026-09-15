@@ -12,3 +12,10 @@
     --color-primary : #8750F7;
     --color-backraund : #140C1C;
 }
+
+ .slick-dots .slick-active div {
+    @apply bg-primary
+     /* border-4 border-white */
+}
+
+

@@ -4,6 +4,10 @@ import SkillsPart from '../Components/SkillsPart'
 import Behind from '../Components/Behind'
 import MySErvice from '../Components/MySErvice'
 import MyCLinTes from '../Components/MyCLinTes'
+import ScrollROtate from '../Components/ScrollROtate'
+import ScrollRotates from '../Components/ScrollRotates'
+import CLintFedBack from '../Components/CLintFedBack'
+import BLog from '../Components/BLog'
 
 
 const Home = () => {
@@ -14,6 +18,10 @@ const Home = () => {
  <Behind/>
 <MySErvice/>
   <MyCLinTes/>
+  <ScrollRotates/>
+  <ScrollROtate/>
+  <CLintFedBack/>
+   <BLog/>
     </div>
   )
 }
