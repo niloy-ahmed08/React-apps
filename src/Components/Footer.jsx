@@ -4,6 +4,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io5";
+import { MdArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -11,12 +12,12 @@ const Footer = () => {
       <div className="container">
 
 
-        <div className='flex gap-17.5 justify-center  '>
+        <div className='flex gap-17.5 justify-center pb-27 border-b border-[#FFFFFF1A] '>
 
 
           <div>
             <div >
-            <img src={footerlogoo} alt="" className='w-[179px]' />
+            <img src={footerlogoo} alt="" className='w-44.75' />
             </div>
             <p className='text-[16px] leading-6 text-white mt-8 font-normal w-[310px]'>
               I break down complex user the experience
@@ -55,14 +56,40 @@ const Footer = () => {
              </div>
 
              <div>
-              <h1 className='text-xl font-semibold text-white leading-6 uppercase whitespace-nowrap'>Subscribe to MyNewsletter!</h1>
+              <h1 className='text-xl font-semibold text-white leading-6 uppercase whitespace-nowrap'>
+                Subscribe to <span className='block'>Newsletter!</span></h1>
+                <div className='flex gap-2 items-center mt-5'>
+                  <input type="text"  className='w-59.25 border-2 rounded-[60px] bg-white h-14.5 outline-none border-[#050709]'/>
+                    <h1 className='w-15 h-15 rounded-full bg-black flex items-center justify-center'>
+                      <MdArrowOutward className='text-xl text-white' />
+
+                    </h1>
+               </div>
              </div>
 
 
 
         </div>
+            
+            <div className='mt-8 flex gap-52.5 items-center justify-center'>
+
+           <div className='flex gap-2 items-center'>
+            <div className='w-2 h-2 rounded-[7px] bg-[#00FF2F] '>
+           </div>
+              <h1 className='text-sm font-semibold text-white leading-4'>AVAILABLE FOR FREELANCE</h1>
+            </div>
+
+              <ul className='text-sm font-normal text-white leading-6 flex gap-9 items-center'>
+                <li>Work</li>
+                <li>Services.</li>
+                <li>Contact</li>
+                <li>About.</li>
+              </ul>
+
+              <h1 className='text-sm font-semibold text-white leading-5'>©All rights reserved byThemeJunction</h1>
 
 
+            </div>
       </div>
     </div>
   )
