@@ -113,11 +113,11 @@ const Banner = () => {
                     </div>
 
                 ]}
-                velocity={200}
+                velocity={150}
                 className="custom-scroll-text"
                 numCopies={2}
                 damping={75}
-                stiffness={650}
+                stiffness={250}
             />
 
         </div>

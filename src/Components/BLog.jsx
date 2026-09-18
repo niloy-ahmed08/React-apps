@@ -13,31 +13,39 @@ const BLog = () => {
              
             <div className='flex gap-6 justify-center items-center mt-15'>
 
+             <div>
+
              <BLogCard
              dates='Nov 01, 2025'
              title='business'
              discription='The Role
-                 of Technologyin Modern Log'
+             of Technologyin Modern Log'
              videoimg={video}
              />
+             </div>
+              
+              <div>
 
               <BLogCard
-             dates='Aug 01, 2025'
+             dates='Aug 01, 2026'
              title='Development'
              discription='The Role of Technology
-in Modern Log'
+             in Modern Log'
              videoimg={video33}
              />
+             </div>
 
 
+               <div>
 
               <BLogCard
-             dates='Nov 01, 2025'
+             dates='Nov 01, 2023'
              title='Portfolio'
              discription='Digital Marketo to
-Their New Office.'
+             Their New Office.'
              videoimg={video22}
              />
+             </div>
 
             </div>
 
