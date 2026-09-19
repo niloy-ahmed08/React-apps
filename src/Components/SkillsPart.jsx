@@ -8,7 +8,7 @@ import cardlogo4 from '../assets/cardlogo44.png'
 
 const SkillsPart = () => {
   return (
-    <div className='pb-40 bg-backraund'>
+    <div className='pb-40 pt-10 bg-backraund'>
       <div className="container">
 
         <h1 className='text-sm font-semibold text-primary leading-4 uppercase'>My Recent Work</h1>
